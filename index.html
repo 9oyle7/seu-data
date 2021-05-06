@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title></title>
+</head>
+<body>
+    <!-- start header -->
+    <div class="main-header" >
+        <div class="container-fluid">
+            <a href="https://www.seu.edu.sa" class="logo text-center">
+                <img src="https://seu.edu.sa/media/5402/new-logo.png"  alt="logo">
+            </a>
+            <div class="row header">
+                <div class="col-md-6">
+                    <div class="username d-none">
+                        <i class="far fa-user" aria-hidden="true"></i>
+                        <span>مرحبا : <b>اسم المستخدم</b></span>
+                        <a href=""><i class="fas fa-sign-out-alt" aria-hidden="true" data-toggle="" data-placement="bottom" title="تسجيل خروج"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <a href="#" class="today">  
+                        <i class="fas fa-calendar-alt"></i>
+                        <span id="date">2 رمضان 1442 هـ</span></a>
+                </div>
+            </div>
+            <div class="row logos">
+                <div class="col-md-6 text-right">
+                    <a>
+                        <img src="https://seu.edu.sa/media/5404/pattern.png" alt="" class="pattern">
+                    </a>
+                </div>
+                
+                <div class="col-md-6 text-left pl-5">
+                    <a href="https://vision2030.gov.sa/" target="_blank">
+                        <img src="https://seu.edu.sa/media/1124/2030.png" alt="" style=" width: 90px; height: 60px">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col title text-center">
+                    
+                        <h2> لوحة معلومات متابعة العملية التعليمية الالكترونية</h2>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- end header-->
+    </div>
+    <!-- end header -->
+    <!-- start content -->
+    <div class="container">
+        <div class="contact-page-inner">
+            <div class="row  text-center">
+                <div class="col text-center welcome-mesg d-none">
+                    <h3>أهلاً و سهلا بك في خدمة حجز المواعيد في الجامعة السعودية الإلكترونية</h3>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="row services">
+                        <div class=" col-md-4">
+                            <a href="" onclick="return false">
+                                <div class="service ">
+                                    <p>عدد أعضاء هيئة التدريس</p>
+                                    <p class="number">809</p>
+                                    <i class="fas fa-chalkboard-teacher top"></i>
+                                    
+                                </div>
+                            </a>
+                        </div>
+                        <div class=" col-md-4">
+                            <a href="" onclick="return false">
+                                <div class="service on">
+                                    <p>الطلاب و الطالبات                                    </p>
+                                    <p class="number">136122</p>
+                                    <i class="fas fa-user-graduate top"></i>
+                                    
+                                    
+                                </div>
+                            </a>
+                        </div>
+                        <div class=" col-md-4">
+                            <a href="" onclick="return false">
+                                <div class="service ">
+                                    <p>الشعب الدراسية
+                                    </p>
+                                    <p class="number">4553</p>
+                                    <i class="fas fa-book-reader top"></i>
+                                    
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+<!-- 
+                <div class="col-md-4 col-12 text-center">
+                    <div class="icon-graduation">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+-->
+            </div>
+        </div>
+        <div class="contact-page-inner">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">البيانات الأسبوعية</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">البيانات التراكمية</a>
+                    </li>
+                    
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <p>عرض التقارير الإسبوعية</p>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1" class="mt-2">الرجاء اختيار الإسبوع</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                          <option>الإسبوع 1</option>
+                                          <option>2 الإسبوع</option>
+                                          <option>3 الإسبوع</option>
+                                          <option>4 الإسبوع</option>
+                                          <option>5 الإسبوع</option>
+                                        </select>
+                                      </div>
+                                      <button type="submit" class="btn btn-primary mb-2">نفذ</button>
+                                    
+                                </div>
+                            </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                      التقارير التراكمية
+                  </div>
+        </div>
+        </div>
+        <div class="contact-page-inner">
+            <h3 class="title-section">الشعب الدراسية</h3>
+            <div class="box-title"></div>
+            <div class="row text-center data">
+                <div class="col-md-4">
+                    <div class="service">
+                        <i class="fas fa-book-reader"></i>
+                        <p> الشعب الدراسية</p>
+                        <p class="number">4553</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <i class="fas fa-tv"></i>
+                        <p>الشعب الافتراضية</p>
+                        <p class="number">4553</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <i class="fas fa-book-reader"></i>
+                        <p>الشعب الحضورية</p>
+                        <p class="number">100</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-page-inner">
+            <h3 class="title-section">مقاييس الفصول الافتراضية</h3>
+            <div class="box-title"></div>
+            <div class="row text-center data">
+                <div class="col-md-4">
+                    <div class="service">
+                        <i class="fas fa-users"></i>
+                        <p>متوسط اجمالي الجلسات</p>
+                        <p class="number">11656</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <i class="fas fa-sync-alt"></i>
+                        <p>متوسط الجلسات المتزامنة</p>
+                        <p class="number">3006</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <i class="fas fa-user-clock"></i>
+                        <p>متوسط المدة الإجمالية</p>
+                        <p class="number">15985:20:02</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <i class="fas fa-user-check"></i>
+                        <p>متوسط عدد الحاضرين</p>
+                        <p class="number">180314</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <i class="fas fa-graduation-cap"></i>
+                        <p>متوسط عدد الحاضرين الفريدين</p>
+                        <p class="number">81137</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-page-inner">
+            <h3 class="title-section">مقاييس إدارة التعلم</h3>
+            <div class="box-title"></div>
+            <div class="row text-center data">
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="fas fa-sign-in-alt"></i>
+                        <p>متوسط عدد تسجيل الدخول</p>
+                        <p class="number">86512</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="fas fa-star-half-alt"></i>
+                        <p>متوسط عدد التقييمات</p>
+                        <p class="number">73879</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="fas fa-tablet-alt"></i>
+                        <p>متوسط عدد لوحات النقاش</p>
+                        <p class="number">10750</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="fas fa-copy"></i>
+                        <p>متوسط عدد الملفات المتاحة</p>
+                        <p class="number">926464</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-page-inner">
+            <h3 class="title-section">احصائيات الدعم الفني</h3>
+            <div class="box-title"></div>
+            <div class="row text-center data">
+                <div class="col">
+                    <div class="service">
+                       
+                        <p>الخدمات الطلابية عبر البوابة</p>
+                        <p class="number">19095</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service">
+                        
+                        <p>الخدمات الطلابية عبر التطبيق</p>
+                        <p class="number">559</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service">
+                        
+                        <p>محادثات البريدالالكتروني</p>
+                        <p class="number">52</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service">
+                        
+                        <p>طلبات نظام دعم</p>
+                        <p class="number">588</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service">
+                        
+                        <p>استفسارات المساعد الذكي</p>
+                        <p class="number">7017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end content -->
+    <footer class="footer">
+        <div class="footer-section">
+            <div class="container-fluid">
+                <div class="row sub-footer">
+                    <div class="col-md-6 col-sm-6 col-12">
+                        <div class="social-links">
+                            <a href="https://twitter.com/Saudi_EUni" class="twitter" target=" _blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/SaudiElectronicUniversity" class="facebook" target=" _blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/user/SaudiEUniversity" class="youtube" target=" _blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-12">
+                        <span class="copyright ">الجامعة السعودية الإلكترونية . جميع الحقوق محفوظة ©2021</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
